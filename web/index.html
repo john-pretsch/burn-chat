@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Burn — Nutrition &amp; Metabolism</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+  <h1>Burn</h1>
+  <div class="controls">
+    <label>Model <select id="model"></select></label>
+    <label>Effort <select id="effort"></select></label>
+    <button id="clear" type="button">New chat</button>
+  </div>
+</header>
+<main id="log" aria-live="polite"></main>
+<form id="form">
+  <textarea id="input" rows="2" maxlength="2000" placeholder="Ask about nutrition or metabolism…" required></textarea>
+  <button id="send" type="submit">Send</button>
+</form>
+<footer>Educational information only, not medical advice. Answers come from a limited set of open-access sources.</footer>
+<script src="chat.js"></script>
+</body>
+</html>
